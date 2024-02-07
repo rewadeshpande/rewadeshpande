@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Projects</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/img5.png" alt="" /></span>
+								<ol>
+								<h2><li>Malicious node detection in Wireless sensor Networks</li></h2>
+								<h3>Summary:</h3>
+								<p>This project introduces a pioneering approach to enhance the security of wireless sensor networks (WSNs) by leveraging blockchain and smart contract technologies. Traditional methods for detecting malicious nodes often overlook data safety, prompting the need for a more robust solution. The proposed model integrates blockchain's decentralized and secure ledger with smart contracts' automation capabilities, ensuring data integrity, traceability, and efficient detection of malicious nodes. Factors such as Delayed Transmission (DT), Forwarding Rate (FR), and Response Time (RT) are evaluated, and the resulting Node Communication Quality (NCQ) is compared against a threshold to identify malicious nodes. The implementation, carried out using MATLAB/OPNET for WSN simulation and Ethereum for smart contracts, demonstrates a secure, efficient, and reliable solution for safeguarding wireless sensor networks.</p>
+								<h3>Future Directions:</h3>
+								<p>Future work could focus on scalability and real-world deployment, exploring further optimizations and broader applications of the proposed <strong>blockchain-based</strong> model in the evolving landscape of the Internet of Things (IoT) and sensor networks. The project's key contributions lie in ensuring data safety, traceability, and improved reliability in the detection process, laying the groundwork for more secure and efficient wireless sensor networks in the future.</p>
+
+								<h2><li>Chicago Transit Authority (CTA) Data Analysis</li></h2>
+								<h3>Summary:</h3>
+								<p>This project focuses on optimizing Chicago's transit routes by integrating big data tools and analytics. The primary goal is to leverage diverse datasets, including ridership data, crime statistics, and weather conditions, for enhancing the efficiency and safety of the Chicago Transit Authority (CTA) services. The project aims to establish an Extract, Transform, Load (ETL) pipeline utilizing <strong>AWS Lambda</strong>, <strong>Amazon S3</strong>, and <strong>Amazon Redshift</strong>, followed by visualization in <strong>Tableau</strong>. Key data processing steps involve removing empty values and duplicates, ensuring uniformity in date and time formats, and combining multiple CSV files into a cohesive dataset. The datasets encompass CTA ridership data, crime data, and additional sources such as holiday information and weather data. The ultimate objective is to derive meaningful insights into optimal transit routes based on ridership patterns, weather conditions, and crime occurrences.</p>
+								<h3>Technologies Utilized:</h3>
+									<ul>
+										<li>AWS Lambda: Automated the extraction of data from Amazon S3 and facilitated seamless data transfer.</li>
+										<li>Amazon S3: Acted as a centralized storage repository for raw data, enabling efficient data extraction.</li>
+										<li>Amazon Redshift: Served as the data warehouse, offering a scalable solution for handling complex transportation datasets.</li>
+										<li>Tableau: Provided a robust platform for data visualization, offering insights through interactive and visually appealing dashboards.</li>
+									</ul>
+								<h3>Implementation Phases:</h3>
+									<ul>
+										<li>Data Export Automation with Lambda: Automated the export of CTA data to Amazon S3, ensuring a continuous flow of updated information.</li>
+										<li>Loading Data into Redshift: Efficiently loaded data from Amazon S3 into Redshift, dynamically creating tables for organized storage.</li>
+										<li>VPC Connection: Established a secure connection between Lambda and Redshift through Amazon VPC, enhancing data pipeline security.</li>
+										<li>Data Visualization with Tableau: Integrated Redshift data seamlessly with Tableau, providing stakeholders with visually appealing and informative dashboards.</li>
+									</ul>
+								<p>In conclusion, this integrated data analytics project represents a strategic endeavor to optimize Chicago's transit routes holistically. By harnessing the power of big data tools and analytics, we have successfully processed diverse datasets encompassing ridership, crime, and weather information. The establishment of a robust ETL pipeline using AWS Lambda, Amazon S3, and Amazon Redshift, followed by visualization in Tableau, underscores our commitment to deriving meaningful insights. The meticulous data processing steps ensure the integrity and uniformity of the datasets. This project not only lays the foundation for data-driven decision-making in the enhancement of Chicago Transit Authority (CTA) services but also highlights the potential for continued exploration and improvement in the efficiency and safety of public transportation systems. The integration of various data sources and technologies signifies a comprehensive approach to address the complexities inherent in urban transit planning, paving the way for informed and optimized transit routes.</p>
+								<a href="https://public.tableau.com/views/CTADashboard/CTADashboard?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" style="color: blue;">Explore My Tableau Dashboard</a>
+								<br>
+								<br>
+								<h2><li>Geo-Tracking for Smart Waste Management and Real-time Alerts</li></h2>
+								<p>Addressing the increasing waste management challenges in India, the project focuses on detecting and tracking waste in unnoticed areas. Motivated by the shortcomings in current waste management practices, the proposed system utilizes modern technologies and image classification tools such as <strong>TensorFlow, Flask, and Twilio.</strong></p>
+								<p>The objectives include classifying images, notifying authorities for cleanup, categorizing waste types, and contributing to cleanliness. The literature survey reveals existing waste generation issues, emphasizing health and biodiversity problems. The proposed system, employing <strong>image processing</strong> and <strong> deep learning algorithms</strong>, achieves an <strong>85% </strong>accuracy rate in waste detection.</p>
+								<p>Implementation successfully categorizes waste types and promptly notifies authorities for cleanup, highlighting the system's efficiency in maintaining cleanliness and improving waste management. The conclusion emphasizes the project's contribution to minimizing waste accumulation, with future prospects for addressing disposal and cleaning challenges.</p>
+								<h2><li>Comprehensive Database Management System Implementation</li></h2>
+								<p>This project presents a comprehensive implementation of a Database Management System (DBMS) by addressing three fundamental components: Storage Manager, Buffer Manager, and Record Manager.</p>
+								<p>In the first phase, a robust storage manager was developed to handle file creation, opening, and closing operations. Methods for reading and writing fixed-size pages from/to a file on disk were implemented. Crucial file information such as the number of pages, current page position, and file descriptor were maintained. The introduction of error codes allowed for effective handling of scenarios like non-existing pages and file not found.</p>
+								<p>The second phase involved the design and implementation of a versatile buffer manager responsible for managing pages in memory through buffer pools. Support for multiple buffer pools, each associated with a specific page file, was implemented, along with page replacement strategies (e.g., FIFO and LRU). Proper handling of dirty pages, along with maintaining statistics about IO operations, ensured efficient memory management. Additional functionalities for pinning and unpinning pages, marking pages as dirty, and forcing pages back to disk were developed.</p>
+								<p>The final phase focused on creating a comprehensive record manager capable of handling tables with fixed schemas. Functionalities for inserting, deleting, updating, and scanning records in a table were implemented. An efficient record representation, page layout, and record IDs were defined to optimize data management. Free space management, schema definition, and consideration of data types in records were addressed.</p>
+								<h2><li>Exploring Hulu</li></h2>	 
+								<p>Highlighted in my experience is a Tableau project focusing on Hulu Insights. My capabilities include transforming complex data into actionable business recommendations. Proficient in Tableau, I excelled in analyzing and visualizing key metrics specific to Hulu's content library, user engagement, viewership growth, and revenue generation. Through the creation of interactive dashboards and reports, I effectively communicated data-driven insights. Adept at data cleaning, visualization design, and statistical analysis techniques, I approach challenges with a strong problem-solving mindset. My skills in translating data into strategic insights and presenting them through impactful visualizations showcase my proficiency in contributing to data analysis and visualization endeavors.</p>					
+								<a href=https://public.tableau.com/views/StreamingInsightsHuluAnalyticsDashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link target="_blank" style="color: blue;">Explore My Tableau Dashboard</a>
+							</ol>									  
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section>
+						<h2>About</h2>
+						<p>Hello, I'm Rewa Deshpande, a dedicated data scientist and computer science graduate student. With experience at Cognizant Technology Solutions, I excel in data analysis, programming, C, C++, JAVA, Python, MYSQL and PostgreSQL). Currently pursuing a Master's at the Illinois Institute of Technology, I'm eager to contribute my skills to innovative solutions in a full-time role. Let's connect for potential collaborations in tech!</p>
+				
+					</section>
+					<section>
+						<h2>Contact Details</h2>
+						<dl class="alt">
+							<dt>Address</dt>
+							<dd>500 E 33rd Street &bull; Chicago, Illinois 60616 &bull; USA</dd>
+							<dt>Phone</dt>
+							<dd>(312)973-0814</dd>
+							<dt>Email</dt>
+							<dd><a href="mailto:deshpande.rewa1999@gmail.com" target="_blank">deshpande.rewa1999@gmail.com</a></dd>
+
+						</dl>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/rewa-deshpande/" class="icon brands fa-linkedin alt" target="blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/rewadeshpande" class="icon brands fa-github alt" target="blank"><span class="label">GitHub</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
+						</ul>
+					</section>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
